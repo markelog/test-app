@@ -18,6 +18,7 @@ See `package.json`, `scripts` section
 ### Notes
 
 Didn't bother with:
+
 1. Spinner
 2. Error handling
 3. 100% test-coverage
