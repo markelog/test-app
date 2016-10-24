@@ -15,7 +15,7 @@ describe('<App />', () => {
       app.notify('search', obj);
 
       expect(stub.calledWith({
-        search: obj
+        search: obj,
       })).toBe(true);
 
       stub.restore();
