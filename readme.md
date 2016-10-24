@@ -1,4 +1,4 @@
-## Just a test app
+# Just a test app [![Build Status](https://travis-ci.org/markelog/test-app.svg?branch=master)](https://travis-ci.org/markelog/test-app)
 
 ### Run
 `npm install && npm start` – on localhost:3000
