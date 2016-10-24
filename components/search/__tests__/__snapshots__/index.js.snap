@@ -1,0 +1,43 @@
+exports[`<Artists /> Search should search 1`] = `
+<div
+  className={undefined}>
+  <input
+    className={undefined}
+    onKeyUp={[Function]}
+    placeholder="Type something..."
+    type="search" />
+</div>
+`;
+
+exports[`<Artists /> renderImage should render artists 1`] = `
+<div
+  className={undefined}>
+  <input
+    className={undefined}
+    onKeyUp={[Function]}
+    placeholder="Type something..."
+    type="search" />
+</div>
+`;
+
+exports[`<Artists /> renderImage should set no-image url if artists array is empty 1`] = `
+<div
+  className={undefined}>
+  <input
+    className={undefined}
+    onKeyUp={[Function]}
+    placeholder="Type something..."
+    type="search" />
+</div>
+`;
+
+exports[`<Search /> snapshots full 1`] = `
+<div
+  className={undefined}>
+  <input
+    className={undefined}
+    onKeyUp={[Function]}
+    placeholder="Type something..."
+    type="search" />
+</div>
+`;

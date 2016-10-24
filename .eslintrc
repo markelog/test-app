@@ -1,0 +1,39 @@
+extends: airbnb
+parser:
+  babel-eslint
+env:
+  browser: true
+global:
+  layOutDay: true
+rules:
+  strict: "off"
+  no-param-reassign: "off"
+  class-methods-use-this: "off"
+  arrow-body-style: "off"
+  spaced-comment: "off"
+  func-names: "off"
+  no-mixed-operators: "off"
+  no-plusplus: "off"
+  complexity: ["error", 5]
+  no-underscore-dangle: "off"
+  valid-jsdoc: ["error",
+    {
+      requireReturnDescription: false,
+      requireReturn: false
+    }
+  ]
+  require-jsdoc: ["error", {
+    require: {
+      FunctionDeclaration: true,
+      MethodDefinition: true,
+      ClassDeclaration: true
+    }
+  }]
+  react/sort-comp: "off"
+  react/prop-types: "off" // false positives
+  react/forbid-prop-types: "off"
+  import/no-extraneous-dependencies: "off"
+  react/jsx-filename-extension:
+    ["error", {
+      extensions: [".js", ".jsx"]
+    }]

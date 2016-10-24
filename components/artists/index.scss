@@ -1,0 +1,38 @@
+.link {
+  display: block;
+}
+
+.figure {
+  float: left;
+  margin-right: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+  transition: transform 0.15s linear;
+}
+
+.figure:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+  transition: transform 0.15s linear;
+  transform: scale(1.25);
+}
+
+.caption {
+  width: 140px;
+  padding: 10px 5px;
+  overflow: hidden;
+  color: #000;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.img {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.item {
+  list-style: none;
+}
