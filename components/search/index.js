@@ -3,7 +3,7 @@ import React, { Component, PropTypes } from 'react';
 import search from './index.scss';
 
 /**
- * Class representing an Search
+ * Class representing a Search component
  * @extends Component
  */
 class Search extends Component {
@@ -15,7 +15,7 @@ class Search extends Component {
   static propTypes = {
 
     /**
-     * Will be called if component will receive new data
+     * Will be called if component receives new data
      * @type {Function}
      */
     notify: PropTypes.func.isRequired,
@@ -24,7 +24,7 @@ class Search extends Component {
   /**
    * API url
    * @static
-   * @type {Object}
+   * @type {String}
    */
   static url = 'https://api.spotify.com/v1/search?type=artist&limit=50';
 
@@ -53,7 +53,7 @@ class Search extends Component {
 
   /**
    * Error handling
-   * @param {*} error - any type of error entity which will be passed to `console.error`
+   * @param {*} error - any type of error entity which will be passed to `console.error` method
    */
   error(error) {
     /* eslint "no-console": "off" */
@@ -61,7 +61,7 @@ class Search extends Component {
   }
 
   /**
-   * Access remote spotify API and call associated notify method
+   * Access remote spotify API and call associated `notify` method
    * @param {String} text - text to pass to the remote API
    */
   search(text) {
@@ -76,7 +76,7 @@ class Search extends Component {
   }
 
   /**
-   * Render Everything
+   * Render everything
    * @return {JSX}
    */
   render() {

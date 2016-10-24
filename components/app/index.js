@@ -25,7 +25,7 @@ class App extends Component {
   }
 
   /**
-   * Implementing mediator design pattern in order to communicate with
+   * Implementation of mediator design pattern in order to communicate with
    * child components without flux architecture
    * @param {String} name - name of the component
    * @param {*} data - component associated data

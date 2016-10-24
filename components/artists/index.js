@@ -4,7 +4,7 @@ import artists from './index.scss';
 import noImage from './no-image.png';
 
 /**
- * Class representing an Artists list
+ * Class representing an artist list
  * @extends Component
  */
 class Artists extends Component {
@@ -18,7 +18,7 @@ class Artists extends Component {
   };
 
   /**
-   * Render Artists list
+   * Render artist list
    * @return {Array}
    */
   renderList() {
